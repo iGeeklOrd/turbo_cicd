@@ -21,4 +21,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile.backend
           push: true
-          tags: todo_app-backend:${{ github.sha }}
+          tags: igeeklord/todo_app-backend:${{ github.sha }}
